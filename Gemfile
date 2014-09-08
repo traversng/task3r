@@ -10,8 +10,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass' 
 gem 'devise'        
 
-group :develpment, :test do
-	gem 'sqlite3'
+group :development, :test do
+     gem 'sqlite3'
+     gem 'taps'
+     gem 'rvm'
 end
 
 group :production do
